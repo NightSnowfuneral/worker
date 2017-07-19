@@ -1,0 +1,79 @@
+.headerData{
+
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	
+	padding: 8px  0 0  16px;
+	
+}
+
+.contentData{
+	position:absolute;
+	top:36px;
+	bottom:0;
+	left:0;
+	right:0;
+	height:auto;
+	padding: 8px;
+}
+.contentData .Role-nav{
+	position:absolute;
+	top:10px;
+	bottom:0;
+	left:0;
+	height:auto;
+	overflow: auto;
+	min-width:150px;
+	padding-left:8px;
+	
+	z-index:20;
+}
+.DefectsNm{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:auto;
+	padding: 8px;
+	
+}
+
+.vertical-center-modal {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.vertical-center-modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0;
+}
+
+.vertical-center-modal .ant-modal {
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  text-align: left;
+}
+.Role-wrapper{
+	position:absolute;
+	top:22px;
+	right:0;
+	bottom:0;
+	left:178px;
+	height:auto;
+	overflow: auto;
+	padding-left:8px;
+	background-color: #fff;
+}
+.RoleManagement .navbarDatae .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+        background-color: #ecf6fd;
+     }
+
+.RoleManagement .ant-form-item-control {line-height:0;}
+.RoleManagement .row-20{width:300px;}

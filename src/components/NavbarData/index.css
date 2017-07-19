@@ -1,0 +1,160 @@
+.navbarDatae{
+	background: transparent;
+	border: none;
+}
+.navbarDatae a{color:black;}
+
+.navbarDatae .menu_sub div i{
+	min-width: 14px;
+	margin-right: 8px;
+}
+.navbarDatae .menu_sub ul{
+	background: transparent;
+}
+.RoleManagement.navbarDatae .menu_sub ul li:hover{
+	background-color: #ecf6fd;
+}
+.navbarDatae .menu_sub ul li
+.navbarDatae .ant-menu-item-selected > a, .ant-menu-item-selected > a:hover,
+.navbarDatae .ant-menu-item > a:hover,
+.navbarDatae .ant-menu-item > a{
+	color: rgba(255,255,255,0.8);
+}
+.navbarDatae .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+	background-color: rgba(0,0,0,.2);
+}
+.navbarDatae .ant-menu-inline .ant-menu-selected, .ant-menu-inline .ant-menu-item-selected{
+	border-right-color: rgba(255,255,255,.8);
+}
+.navbarDatae .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-active{
+	background-color: #ecf6fd;
+	transition: all .2s ease-in-out;
+}
+.menu_sub a:hover{
+	color:white;
+}
+.menu_sub li{
+	height:20px;
+}
+.menu_item li{
+	height:20px;
+}
+.LinkParam{
+	position: relative;
+}
+.LinkDElete{
+	position:absolute;
+	top:0;
+	right:-3px;
+	height:30px;
+	z-index:400;
+	padding:0;
+	text-align: center;
+	line-height:30px;
+
+}
+.atimeDele{
+	color:#f04134;
+	font-size: 16px;
+	padding: 0 1px;
+	float:right;
+	margin-left:5px;
+	margin-top:9px;
+	text-align: center;
+	
+
+}
+
+
+.positions{
+	position:absolute;
+	z-index:200;
+	left:50px;
+	top:0;
+	bottom:0;
+}
+
+.DivClass{
+	height:20px;
+}
+.DivClassTop{
+	margin-top:-10px;
+}
+.ant-menu-inline, .ant-menu-vertical{
+	border-right:none;
+}
+.DivClassColor{
+	color:silver;
+}
+
+.RoleManagement .menu_sub ul{
+	position:absolute;
+	top:50px;
+	bottom:0;
+	height:auto;
+	width:161px;
+	left:0;
+	width:100%;
+	overflow-y:scroll;
+}
+.RoleManagement .ant-menu-submenu-title{
+	line-height: 50px;
+	height:50px;
+
+}
+.RoleManagement .menu_sub{
+	position:absolute;
+	top:0;
+	bottom:0;
+	width:140px;
+}
+.RoleManagement .ant-menu-submenu-title{padding:0;}
+.RoleManagement .positions {
+    position: absolute;
+    z-index: 200;
+    left: 25px;
+    top: 0;
+    bottom: 0;
+}
+.RoleManagement .ant-menu-submenu-inline > .ant-menu-submenu-title:after{
+	right:2px;
+}
+
+.RoleManagement  .ant-menu-item,.RoleManagement  .ant-menu-submenu,.RoleManagement  .ant-menu-submenu-title:hover{
+	color:black;
+}
+
+.RoleManagement .LinkParamPer:hover{
+	    background-color: #ecf6fd;
+}
+
+.PersonnelAllocation .ant-menu-submenu-title{
+	color:black;
+}
+
+
+.RoleManagement .beyond{
+	width:80px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-left:20px;
+}
+
+.RoleManagement .beyond:after{
+	
+}
+.LinkDEleteName{
+	left:0;
+	position:absolute;
+	top:4px;
+	
+	height:30px;
+	z-index:400;
+	padding:0;
+	text-align: center;
+	line-height:30px;
+}
+.RoleManagement .LinkParam .ant-menu-item .anticon, .RoleManagement .LinkParam .ant-menu-submenu-title .anticon{
+	margin-top:-7px;
+}

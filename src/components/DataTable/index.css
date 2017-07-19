@@ -1,0 +1,67 @@
+
+#tab{ 
+width:100%; 
+height:100%; 
+font-size:12px; 
+font-family:Verdana, Geneva, sans-serif Georgia, "Times New Roman", Times, serif; 
+font-weight:bolder; 
+border-collapse: collapse; 
+} 
+
+
+.DataTable table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+    overflow: hidden;
+
+}
+.DataTable table tr{
+	border-left:1px solid #e9e9e9;
+	border-right:1px solid #e9e9e9;
+}
+.ant-table-tbodyData>tr>td, .ant-table-theadData>tr>th{
+	padding:0;
+	word-break: break-all;
+}
+.ant-table-theadData{
+	border-top:1px solid #e9e9e9;
+	border-right:2px solid #e9e9e9;
+}
+.ant-table-tbodyData{
+	border-bottom:2px solid #e9e9e9;
+	border-right:2px solid #e9e9e9;
+}
+.ant-table-theadData>tr>th {
+    background: #f7f7f7;
+    font-weight: 500;
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease;
+    text-align: center;
+    color: rgba(0,0,0,.85)
+    }
+
+ 
+ .ant-table-tbodyData>tr>td{
+ 	background:#fff;
+ }
+.ant-table-theadData>tr>th, .ant-table-tbodyData>tr>td {
+    border-bottom: 1px solid #e9e9e9;
+}
+
+ .ant-table-tbodyData>tr>td, .ant-table-theadData>tr>th{
+ 	    border-right: 1px solid #e9e9e9;
+ }
+
+
+.hover:hover{
+ 	background-color: #00dfff;
+    color: #1b4273;
+ }
+
+#tab .ant-table-tbodyData .active {
+    color:silver;
+    background-color: red
+} 

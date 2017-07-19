@@ -1,0 +1,23 @@
+.row-12{width:80%;margin:0 auto;}
+.titleShorg{font-size:12px;width:85%;margin:0 auto;}
+.scheduling_flwc_Role{width:80%;padding:2px 8px;margin:0 auto;}
+.scheduling_flwc_Role_Div{display: inline-block; width: 33.3%;text-align: left;}
+.PersonnelAllocation .row-11{margin-bottom:0;height:auto;display:inline-block;}
+.PersonnelAllocation .scheduling_flwc_bottomName{margin-top:0;}
+.edittPlus{display:inline-block;color:#1296db;margin-left:0;cursor: Pointer;width:10px;height:18px;margin-top:-2px;line-height:18px;}
+.edittPlus:hover{color:#090ef4;}
+
+.colorIcon{margin-top:-3px;}
+.PersonnelAllocation .specicol .row{
+	
+	display: -webkit-inline-block !important; 
+	display: -moz-inline-block !important; 
+	display: -ms-inline-block !important; 
+	display: -webkit-inline-block !important;
+	display: inline-block !important; 
+	margin-bottom: 0;
+	padding: 2px 8px;
+
+}
+.specicol{width:33.3%;display:inline-block;text-align:left;position:relative;line-height:17px;min-width:200px;}
+

@@ -1,0 +1,38 @@
+.navbar{
+	background: transparent;
+	border: none;
+}
+.navbar .menu_sub div{
+	padding: 0 16px ;
+	color: rgba(255,255,255,0.8);
+}
+.navbar .menu_sub div i{
+	min-width: 14px;
+	margin-right: 8px;
+}
+.navbar .menu_sub ul{
+	background: transparent;
+}
+.navbar li:hover{color:white;}
+.navbar .ant-menu-item-selected > a, .ant-menu-item-selected > a:hover,
+.navbar .ant-menu-item > a:hover,
+.navbar .ant-menu-item > a{
+	color: rgba(255,255,255,0.8);
+}
+.navbar .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+	background-color: rgba(0,0,0,.2);
+}
+.navbar .ant-menu-inline .ant-menu-selected, .ant-menu-inline .ant-menu-item-selected{
+	border-right-color: rgba(255,255,255,.8);
+}
+.navbar .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-active{
+	background-color: rgba(0,0,0,.2);
+	transition: all .2s ease-in-out;
+}
+.menu_sub a:hover{
+	color:white;
+}
+
+.navbar .ant-menu-item,.navbar .ant-menu-submenu,.navbar .ant-menu-submenu-title:hover{
+	color:white;
+}

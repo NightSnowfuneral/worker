@@ -1,0 +1,199 @@
+#app{
+	height: 100%;
+	width: 100%;
+	min-width: 1000px
+}
+.app{
+	height: 100%;
+	width: 100%;
+}
+.dashboard{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-repeat: repeat;
+}
+.dashboardspeaciol{
+	 background: url(../img/bg/bg0.jpg) top left repeat;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='../img/bg/bg0.jpg', sizingMethod='crop'); /* IE6-8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg/bg0.jpg', sizingMethod='crop')";
+}
+.header{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:50px;
+}
+.Head_title{
+	padding-left:30px;
+} 
+.content{
+	position:absolute;
+	top:50px;
+	bottom:0;
+	left:0;
+	right:0;
+	height:auto;
+}
+.content .nav{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	height:auto;
+	width:181px;
+	min-width:180px;
+	overflow: auto;
+}
+.content .wrapper{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:178px;
+	height:auto;
+	overflow: auto;
+	padding:8px;
+	background-color: #fff;
+	
+}
+.Query .warpper{
+	height:903px;
+}
+.login{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/login/login.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.login:before{
+	content: "";
+	position: absolute;
+	top: 16px;
+	left: 16px;
+	width: 276px;
+	height: 52px;
+	background-repeat: no-repeat;
+	background-size: cntain;
+}
+.login_box{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	width: 380px;
+	height: auto;
+	margin-left: -190px;
+	overflow: hidden;
+	padding: 40px;
+	box-shadow: 0 -15px 30px rgba(0,0,0,.1);
+	border-radius: 5px; 
+}
+.login_box dt{
+	font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #a5d0fd;
+    text-shadow: 0 0 1px #65a4e5;
+    margin-bottom: 16px;
+}
+.login_box dd{
+	margin-bottom: 6px;
+	height: 36px;
+	overflow: hidden;
+	position: relative;
+}
+.login_box dd .login_txtbx{
+	font-size: 14px;
+	height: 36px;
+	line-height: 36px;
+	padding: 3px 5%;
+	width: 100%;
+	text-indent: 2em;
+	border: none;
+	color: #fff;
+	background: rgba(255,255,255,.3);
+}
+.login_box dd .login_txtbx::-webkit-input-placeholder {
+	color:#f4f4f4;
+	line-height:inherit;
+} 
+.login_box dd .login_txtbx:-moz-placeholder {
+	color:#f4f4f4;
+	line-height:inherit;
+} 
+.login_box dd .login_txtbx::-moz-placeholder {
+	color:#f4f4f4;
+	line-height:inherit;
+}
+.login_box dd .login_txtbx:focus{
+	background: rgba(255,255,255,.25);
+}
+.login_box dd:before{
+	font-family:'adminthemesregular';
+	position:absolute;
+	top:0;
+	left:10px;
+	height:36px;
+	line-height:36px;
+	font-size:20px;
+	color:#238dd9;
+}
+.login_box dd.user:before{
+	content:"u";
+}
+.login_box dd.pwd:before{
+	content:"p";
+}
+.login_box dd .submit_btn{
+	width: 100%;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    font-size: 16px;
+    background: #3382cf;
+    color: #f8f8f8;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.login_box dd .submit_btn:active{
+	background: rgba(0,0,0,.1);
+}
+.login_box dd .submit_btn:disabled{
+	background: rgba(255,255,255,.25);
+}
+.ant-spin-nested-loading{
+	width:100%;
+}
+
+.ant-menu-inline .ant-menu-item:after, .ant-menu-vertical .ant-menu-item:after {
+		border-right:0;
+}
+.RoleManagement .ant-menu-sub.ant-menu-inline > .ant-menu-item, .wrapper .ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title{
+	line-height: 30px;
+	height:30px;
+}
+ .ant-form-item-control .ant-input[disabled]{
+	background-color: #f7f7f7;
+    opacity: 1;
+    cursor: not-allowed;
+    color: #6f4e4e;
+}
+.ant-form-item-control .ant-select-disabled .ant-select-selection--multiple .ant-select-selection__choice{
+    background: #eee;
+    color: #6f4e4e;
+    padding-right: 10px;
+
+}
+ .ant-form-item-control .ant-cascader-picker-disabled .ant-cascader-picker-label{
+ 	color: #6f4e4e;
+ }
+ .ant-form-item-control .ant-select-selection-selected-value{
+ 	color: #6f4e4e;
+ }
+  .ant-form-item-control .ant-select-combobox .ant-select-search__field{
+  	color: #6f4e4e;
+  }
